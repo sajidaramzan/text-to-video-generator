@@ -1,0 +1,27 @@
+# requirements.txt
+streamlit==1.32.0
+Pillow==10.2.0
+numpy==1.26.4
+moviepy==1.0.3
+python-dotenv==1.0.1
+
+# File Structure
+├── text_animator.py    # Main application file (rename main.py to text_animator.py)
+├── requirements.txt    # Dependencies file
+└── .streamlit/        # Streamlit configuration directory
+    └── config.toml    # Streamlit configuration file
+
+# .streamlit/config.toml content
+[theme]
+primaryColor = "#FF4B4B"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#262730"
+font = "sans serif"
+
+[server]
+maxUploadSize = 200
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
