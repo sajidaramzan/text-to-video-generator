@@ -1,0 +1,29 @@
+# requirements.txt
+streamlit==1.32.0
+Pillow==10.2.0
+numpy==1.24.3
+moviepy==1.0.3
+python-dotenv==1.0.0
+pathlib==1.0.1
+typing_extensions==4.5.0
+
+# packages.txt
+ffmpeg
+
+# File: text_animator.py
+# Make sure this is your main application file name
+
+# .streamlit/config.toml
+[theme]
+primaryColor="#F63366"
+backgroundColor="#FFFFFF"
+secondaryBackgroundColor="#F0F2F6"
+textColor="#262730"
+font="sans serif"
+
+[server]
+enableCORS=false
+enableXsrfProtection=true
+
+[browser]
+gatherUsageStats = false
